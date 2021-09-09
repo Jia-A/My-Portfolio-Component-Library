@@ -71,7 +71,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
-}
+} 
 
 .hero {
     padding: 1.5rem;
@@ -103,4 +103,22 @@ hr {
 
 .gray{
     background-color: var(--gray);
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+
+.link-foot{
+    color: white
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+    
 }
