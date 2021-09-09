@@ -1,67 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
-:root{
-    --primary-color:#047857;
+:root {
+    --primary-color: #047857;
+    --secondary-color: #2F2E41;
+    --gray: #ECFDF5;
 }
-body{
+
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
-.container{
+.container {
     padding: 0rem 1rem;
-    
+
 }
 
-.centre-container{
-margin: auto;
-max-width: 600px;
+.centre-container {
+    margin: auto;
+    max-width: 600px;
 }
 
-.link{
+.link {
     text-decoration: none;
-    padding:0.5rem 1rem
+    padding: 0.5rem 1rem
 }
-.primary-link{
-    background-color:var(--primary-color);
-    color:white;
+
+.primary-link {
+    background-color: var(--primary-color);
+    color: white;
     border-radius: 0.7rem;
 }
-.secondary-link{
-    color:var(--primary-color);
+
+.secondary-link {
+    color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.7rem;
 }
- 
-.non-bullet-list{
+
+.non-bullet-list {
     list-style: none;
 }
 
-.inline-list-item{
+.inline-list-item {
     display: inline;
     padding: 0rem 0.5rem;
 }
-.navigation{
+
+.navigation {
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 1rem;
     padding: 1rem;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
 
-.navigation .nav-pills{
-    text-align:right;
+.navigation .nav-pills {
+    text-align: right;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
+}
+
+.hero {
+    padding: 1.5rem;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-head {
+    padding-top: 1rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.hero .hero-head .hero-head-focus {
+    color: var(--primary-color);
+
+}
+
+.section{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+
+.gray{
+    background-color: var(--gray);
 }
