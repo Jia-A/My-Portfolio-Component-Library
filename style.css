@@ -7,6 +7,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
 .container{
     padding: 0rem 1rem;
     
@@ -32,3 +36,32 @@ max-width: 600px;
     border-radius: 0.7rem;
 }
  
+.non-bullet-list{
+    list-style: none;
+}
+
+.inline-list-item{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align:right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.navigation .link-active{
+    font-weight: bold;
+}

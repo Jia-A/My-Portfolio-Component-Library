@@ -34,19 +34,19 @@
 
     <h2>@lists</h2>
     <h3>unordered block list</h3>
-    <ul>
+    <ul class="non-bullet-list">
         <li>one</li>
         <li>two</li>
         <li>three</li>
     </ul>
     <h3>unordered inline list</h3>
-    <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
+    <ul class="non-bullet-list">
+        <li class="inline-list-item">one</li>
+        <li class="inline-list-item">two</li>
+        <li class="inline-list-item">three</li>
     </ul>
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>one</li>
         <li>two</li>
         <li>three</li>
@@ -54,16 +54,17 @@
     <hr>
 
     <h2>@nav</h2>
-    <p>It is usually on the top most part of a website for navigating from one page to another. </p>
-    <div>
+    <nav class="navigation container">It is usually on the top most part of a website for navigating from one page to another. </p>
+    <div class="nav-brand">
         <h5>Brand Name</h5>
     </div>
-    <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Blogs</li>
-        <li>About</li>
+    <ul class="non-bullet-list nav-pills">
+        <li class="inline-list-item "><a class="link link-active" href="/">Home</a></li>
+        <li class=" inline-list-item"><a class="link" href="/">Projects</a></li>
+        <li class=" inline-list-item"><a class="link" href="/">Blogs</a></li>
+        <li class=" inline-list-item"><a class="link" href="/">About</a></li>
     </ul>
+    </nav>  
     <hr>
  
     <h2>@header</h2>
