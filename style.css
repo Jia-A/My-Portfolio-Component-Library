@@ -113,6 +113,9 @@ footer{
     color: white;
     border-top-right-radius: 1rem;
 }
+.footer .footer-head{
+    font-weight: bold;
+}
 
 
 .link-foot{
