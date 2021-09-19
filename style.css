@@ -9,8 +9,19 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    color: var(--secondary-color);
 }
+.marks{
+    font-size: small;
+    border: 
+    #2F2E41 solid 1px;
+    padding: 5px;
+    border-radius: 0.5rem;
 
+}
+.name{
+    color: #111827;
+}
 hr {
     margin: 2rem 0rem;
 }
@@ -119,8 +130,17 @@ footer{
 
 
 .link-foot{
-    color: white
+    color: white;
+    font-size: 2rem;
 }
+
+.link-app{
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-align: center;
+}
+
+
 
 .footer ul{
     padding-inline-start: 0px;
