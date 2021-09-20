@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
 
 
@@ -13,17 +12,20 @@ body {
     margin: 0px;
     color: var(--secondary-color);
 }
-.marks{
+
+.marks {
     font-size: small;
-    border: 
-    #2F2E41 solid 1px;
+    border:
+        #2F2E41 solid 1px;
     padding: 5px;
     border-radius: 0.5rem;
 
 }
-.name{
+
+.name {
     color: #111827;
 }
+
 hr {
     margin: 2rem 0rem;
 }
@@ -40,7 +42,11 @@ hr {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem
+    padding: 0.5rem 1rem;
+    transition :  all 0.5s;
+}
+.link :hover{
+    transform: scale(1.1);
 }
 
 .primary-link {
@@ -53,7 +59,7 @@ hr {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.7rem;
-    
+
 }
 
 .non-bullet-list {
@@ -64,6 +70,7 @@ hr {
     display: inline;
     padding: 0rem 0.5rem;
 }
+
 
 .navigation {
     background-color: var(--primary-color);
@@ -86,7 +93,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
-} 
+}
 
 .hero {
     padding: 1.5rem;
@@ -109,35 +116,37 @@ hr {
 
 }
 
-.section{
+.section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
 }
 
-.gray{
+.gray {
     background-color: var(--gray);
 }
 
-footer{
+footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 }
-.footer .footer-head{
+
+.footer .footer-head {
     font-weight: bold;
 }
 
 
-.link-foot{
+.link-foot {
     color: white;
     font-size: 2rem;
 }
 
-.link-app{
+.link-app {
     color: var(--primary-color);
     font-size: 3rem;
     text-align: center;
@@ -145,7 +154,7 @@ footer{
 
 
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
-    
+
 }
