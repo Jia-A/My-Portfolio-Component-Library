@@ -111,6 +111,10 @@ hr {
     text-align: center;
 }
 
+.date{
+    font-size: small;
+}
+
 .hero .hero-head .hero-head-focus {
     color: #346773;
 
