@@ -23,7 +23,7 @@ body {
 }
 
 .name {
-    color: #111827;
+    color: #346773;
 }
 
 hr {
@@ -112,7 +112,7 @@ hr {
 }
 
 .hero .hero-head .hero-head-focus {
-    color: var(--primary-color);
+    color: #346773;
 
 }
 
